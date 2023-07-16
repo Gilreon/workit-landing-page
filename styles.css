@@ -85,7 +85,6 @@ justify-content: center;
 }
 .infoHero h2{
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .infoHero p {
@@ -93,13 +92,6 @@ justify-content: center;
     letter-spacing: 1px;
     font-size: 15px;
     margin-right: 10px;
-}
-
-.number {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
 }
 
 .infoNumber {
@@ -110,10 +102,17 @@ justify-content: center;
   width: 40px;
   border-radius: 50%;
   border: 1px solid;
-  padding-top:14px;
   
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 25%;
+}
+
+.cardTitle {
+    margin: 55px 0 25px 0;
 }
