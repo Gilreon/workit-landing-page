@@ -54,6 +54,7 @@ justify-content: center;
     margin-right: auto;
     width: 767px;
     padding-top: 17%;
+    
 }
 .text {
     text-align: center;
@@ -82,6 +83,8 @@ justify-content: center;
     margin-bottom:100px;
     color: #24053E;
     font-family:'Fraunces';
+    background-color: #FCF8FF;
+    
 }
 .infoHero h2{
     text-align: center;
@@ -115,4 +118,79 @@ justify-content: center;
 
 .cardTitle {
     margin: 55px 0 25px 0;
+}
+
+.bottomSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomImg img{
+    width: 477px;
+    height: 477px;
+    position: relative;
+    margin-right: 650px;
+    margin-bottom: 300px;
+    z-index: 1;
+}
+
+.bottomCard {
+    background-color: #24053E;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 650px;
+    height: 330px;
+    padding-left:40px;
+    position: absolute;
+    margin-left:300px;
+    margin-bottom:100px;
+    z-index: 2;
+}
+
+.bottomCardHeading {
+    font-family: 'Fraunces';
+    font-size: 25px;
+    text-align: left;
+    margin: 50px 0;
+}
+
+.bottomCardInfo {
+    font-family: 'Fraunces';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 35px;
+    margin-right: 80px;
+}
+
+.bottomCardBtn a {
+    font-family: 'Fraunces';
+    text-decoration: none;
+    font-size: 20px;
+    color: #24053E;
+    border: none;
+    background-color: #44FFA1;
+    padding: 10px 20px;
+}
+
+
+.bottomFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerImg {
+    margin-bottom: 30px;
+}
+
+#twitter {
+    margin:0 30px;
+}
+
+.bottomFooter {
+    margin-bottom: 30px;
 }
