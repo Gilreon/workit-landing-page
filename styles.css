@@ -77,5 +77,43 @@ justify-content: center;
 
 .infoHero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:100px;
+    color: #24053E;
+    font-family:'Fraunces';
+}
+.infoHero h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.infoHero p {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.infoNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+  padding-top:14px;
+  
+}
+
+.card {
+    width: 25%;
 }
