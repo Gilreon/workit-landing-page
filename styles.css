@@ -27,6 +27,34 @@
     list-style-type: none;
 }
 
+.topContainer li {
+    border-bottom: 2px solid #44FFA1;
+    padding-bottom: 5px;
+}
+
+.topContainer li:hover {
+    cursor: pointer;
+    color: #44FFA1;
+}
+
+.imgOne {
+    position:absolute;
+    left: 0;
+}
+
+.imgTwo {
+    position:absolute;
+    right:0;
+    padding-top: 10%;
+}
+
+.imgThree {
+    position:absolute;
+    padding-top: 30%;
+    padding-right: 15%;
+    right:0;
+}
+
 .logo {
 }
 
@@ -46,6 +74,10 @@ justify-content: center;
     height: 441px;
 }
 
+#greenLine {
+    border-bottom: 2px solid #44FFA1;
+}
+
 .heroImg {
     position: absolute;
     left: 0px;
@@ -54,11 +86,13 @@ justify-content: center;
     margin-right: auto;
     width: 767px;
     padding-top: 17%;
+    z-index: 0;
     
 }
 .text {
     text-align: center;
     padding: 40px;
+    z-index: 1;
 }
 
 .text h2 {
@@ -76,6 +110,13 @@ justify-content: center;
     padding: 10px 20px;
 }
 
+.text a:hover {
+    background-color: #24053E;
+    color:#44FFA1;
+    border: 2px solid #44FFA1;
+}
+
+
 .infoHero {
     display: flex;
     justify-content: center;
@@ -83,7 +124,6 @@ justify-content: center;
     margin-bottom:100px;
     color: #24053E;
     font-family:'Fraunces';
-    background-color: #FCF8FF;
     
 }
 .infoHero h2{
@@ -175,6 +215,11 @@ justify-content: center;
     padding: 10px 20px;
 }
 
+.bottomCardBtn a:hover {
+    background-color: #24053E;
+    color:#44FFA1;
+    border: 2px solid #44FFA1;
+}
 
 .bottomFooter {
     display: flex;
