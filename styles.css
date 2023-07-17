@@ -70,8 +70,9 @@ justify-content: center;
     margin-bottom: 20%;
 }
 .hero img {
-    width: 767px;
-    height: 441px;
+    margin: 20px;
+    width: 700px;
+    height: auto;
 }
 
 #greenLine {
@@ -240,3 +241,47 @@ justify-content: center;
 .bottomFooter {
     margin-bottom: 30px;
 }
+
+/* Media Queries  */
+
+@media only screen and (max-width: 1020px) {
+
+    .heroImg {
+        width: 600px;
+        height: auto;
+    }
+
+    .infoHero {
+        display: flex;
+        flex-direction: column;
+    }
+    .infoNumber {
+        margin-top:45px;
+    }
+
+    .bottomCard {
+        background-color: #24053E;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 550px;
+        height: 350px;
+        padding-left: 40px;
+        position: absolute;
+        margin-left: 300px;
+        margin-bottom: 100px;
+        z-index: 2;
+    }
+
+    .bottomImg img {
+        margin-right: 500px;
+    }
+  }
+
+  @media only screen and (max-width: 925px) {
+    .imgOne, .imgTwo, .imgThree, .heroImg {
+        display: none;
+    }
+
+   
+  }
